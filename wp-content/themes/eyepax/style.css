@@ -1,0 +1,192 @@
+/*
+Theme Name: Eyepax Theme
+Theme URI: https://eyepax.com
+Author: Supun Chandula Illeperuma
+Author URI: https://yourwebsite.com
+Description: Seniore Developer Technical Test
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: <https://www.gnu.org/licenses/gpl-2.0.html>
+Text Domain: eyepax-test-theme
+Tags: custom-theme
+*/
+body{
+    font-family: 'Playfair Display', serif!important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('imgs/bg.png') fixed 50%;
+    background-size: cover; 
+}
+
+/* Nav Menu */
+.wpd-brand-dark{
+    color: #C4C4C4;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 80px;
+}
+.wpd-brand-light{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 80px;
+}
+.bg-light {
+    background-color: transparent !important;
+}
+a.nav-link{
+    color: white!important;
+    font-family: 'Roboto', serif!important;
+    font-size:16px;
+    font-weight: 500;
+    line-height:  20px
+}
+ul.nav{
+    margin-left:auto!important;
+}
+
+.navbar-toggler-icon{
+    background-color: #FFFFFF!important;
+}
+
+li.menu-item-6:hover ul.dropdown-menu {
+    display: block!important;
+}
+
+/* DIVs */
+div.wpd-body{
+    margin: auto;
+    width: 100%;    
+    padding: 5% 10% 5% 10%;
+}
+
+/* Headings and Typos */
+h4.wpd-heading4{
+    font-size: 5vw;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    color: white;
+}
+h1.wpd-heading1{
+    font-size: 7vw;
+    letter-spacing: 0.525em;
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    overflow-wrap: break-word;
+}
+h6.wpd-heading6{
+    font-family: 'Roboto', serif!important;
+    font-size: 25px;
+    letter-spacing: 0.2rem;
+    text-transform: capitalize;
+    color: white;
+}
+p.wpd-para1{
+    font-family: 'Roboto', serif!important;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    text-transform:unset;
+    color: white;
+}
+
+/* Buttons */
+button.wpd-explorebtn{
+    font-family: 'Roboto', serif!important;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    text-transform:uppercase;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 40px;
+    padding: 2% 10% 2% 10%;
+    margin: 5% 0% 0% 0%;
+    color: white;
+}
+button.wpd-explorebtn:hover{
+    font-family: 'Roboto', serif!important;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    text-transform:uppercase;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 40px;
+    padding: 2% 10% 2% 10%;
+    margin: 5% 0% 0% 0%;
+    color: #000000;
+}
+
+/* Lines */
+hr.wpd-underline{
+    color: white;
+    width: 100%;
+    border-top: 4px solid;
+    overflow: hidden;
+    margin: 0 0% 3% 0;
+}
+
+/* SVG icons */
+img.wpd-iconSvg{
+    width:24px;
+    height:24px;
+}
+
+/* SVG animations */
+img.wpd-iconSvg {
+    animation: slide1 1s ease-in-out infinite;
+    margin-left: 9px;
+  }
+  @keyframes slide1 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(10px, 0);
+    }
+  }
+  
+/*Media Queries*/ 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar-toggler-icon {
+      background-color:transparent !important;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+      background-image: url("https://img.icons8.com/ios-glyphs/30/ffffff/menu--v1.png")!important;
+    }
+
+    button.navbar-toggler:hover div.collapse.show{
+        display: block!important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .navbar-toggler-icon {
+      background-color:transparent !important;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+      background-image: url("https://img.icons8.com/ios-glyphs/30/ffffff/menu--v1.png")!important;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .navbar-toggler-icon {
+      background-color:transparent !important;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+      background-image: url("https://img.icons8.com/ios-glyphs/30/ffffff/menu--v1.png")!important;
+    }
+}  
